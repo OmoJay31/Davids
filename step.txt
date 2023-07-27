@@ -1,0 +1,29 @@
+Open AWS EC2 instance
+Click instance
+Launch instance
+Create name tag that is server name
+Scroll down and choose application OS from the images, choose Ubuntu and use sudo apt but sudo yum for linux
+Ensure it is on free tier eligible
+Instance type should be t2.micro free tier eligible
+Key pair colunm choose not recommended
+At network setting, choose create security and click allow for the three securities 
+Scroll down and click launch instance
+On the next page click connect to instance
+On nexy page, copy your Public IP address and click connect
+On the next window which is the terminal
+sudo apt update
+sudo apt upgrade
+sudo apt install nginx
+sudo apt update
+sudo apt upgrade
+sudo apt install python3
+sudo apt update
+sudo apt upgrade
+sudo apt install httpd
+sudo apt update
+sudo apt upgrade
+sudo apt install 
+
+
+
+
